@@ -1,0 +1,31 @@
+.left_con{
+    position: fixed;
+    left: 0;
+    width: 200px;
+    height: 100%;
+    background-color: #1b1c1d;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.left_con  .menu a:hover{
+    color: white !important;
+}
+.left_con  .menu a:active{
+    color: white !important;
+    text-decoration: none;
+}
+.left_con  .menu a:visited{
+    color: white !important;
+    text-decoration: none ;
+}
+.left_con  .menu a:focus{
+    color: white !important;
+    text-decoration: none ;
+}
+.right_con{
+    position: fixed;
+    left: 200px;
+    width: 100%;
+    padding-top: 50px;
+    height: 100%;
+}
